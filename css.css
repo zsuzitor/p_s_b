@@ -1,7 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Kurale');
-@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+body 
+{
+  font: 0.8em Arial, Helvetica, sans-serif; 
+  background: #F0F8FF; /*&&&*/
+  height: 100%;
+}
+
 
 div.obshii_div{
 	width: 80%;
@@ -9,8 +13,9 @@ div.obshii_div{
   background-color: #e7d3f5;
 
   margin: auto; 
-  
+  margin-top: 5%;
 }
+
 div.head_zakrep{
 	position: fixed; /* Фиксированное положение */
 	border: 1px solid #b074ae; 
@@ -20,86 +25,58 @@ top: 0px;
 width: 79%;	
 }
 
-body 
-{
-  font: 0.8em Arial, Helvetica, sans-serif; 
-  background: #F0F8FF; 
-  height: 100%;
-}
-
-ul.sp_img_c_4 {
-    margin: 0; /* Обнуляем значение отступов */
-	margin-right: 50px;
+div.stroka_div1{
 	
-	width: 90%;
-    padding: 4px; /* Значение полей */
-	
-   }
-   
-   ul.sp_img_c_4 li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    /*border: 1px solid #000;  Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
-	width: 100px;
-	   height: 300px;
-	   
-	   
-	    /*margin-right: 25px;*/
-    
-   }
-   
-   
-
-		img.odna_is_4{
-			width: 20%;
-	   height: 300px;
-			
-		}
-div.obshii_div{
-	margin-top: 5%;
-	
-}
-img.id_for_image_sl_hd_cl{
+	display:inline-block;
 	width: 20%;
-	   height: 50px;
-	
-}
-img.id_for_image_spr_hd_cl{
-	width: 80%;
-	   height: 50px;
-	
-}
-
+	height: 300px;
 			
+}
 div.stroka_div{
 		display:inline-block;
-			
-		}
-		
-		div.for_razdelenie{
+			width: 20%;
+			height: 50px;
+}
+div.for_razdelenie{
 			clear: left;
-		}
-		
-		img.id_for_image_sl_hd{
-			width: 100%;
-	   height: 300px;
-			
-		}
-		
-		img.id_for_image_spr_hd{
-			width: 100%;
-	   height: 300px;
-			
-		}
-		
-		img.id_for_image_c_1{
-			width: 100px;
-	   height: 300px;
-			
-		}
-		img.id_for_image_c_odna_1{
-			width: 100%;
-	   height: 300px;
-			
-		}
+}
+div.image_header_left{
+	display:inline-block;
+	width:20%;
+	height: 50px;
+	
+}
+div.image_header_right{
+	display:inline-block;
+	width:50%;
+	height: 50px;
+	
+}
+div.centr_spisok{
+	width:100%;
+	margin-left:8%;
+}
+div.butilki{
+	width:100%;
+	height:400px;
+}
+img.id_for_image_sl_hd_cl{
+	width:100%;
+	height: 100%;
+}
+img.id_for_image_spr_hd_cl{
+	width:100%;
+	height: 100%;
+}
+
+img.odna_is_4{
+	width:100%;
+	height: 100%;
+}
+img.id_for_image_c_odna_1{
+	width:100%;
+	height: 100%;
+}
+
+/*text-align: center;*/
+
