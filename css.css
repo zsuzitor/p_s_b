@@ -73,8 +73,19 @@ div.karta_class{
 	margin-left:15%;
 	
 }
+div.otstup_100{
+	margin-top: 100px;
+}
 
 #featured { width: 100%; height: 450px; background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+
+
+div.logo_mcr{
+	margin-left:42%;
+	height:100px;
+	width: 16%;
+}
+
 
 /* CONTAINER */
 div.orbit { width: 1px; height: 1px; position: relative; -moz-box-shadow: 0 0 10px rgba(0,0,0,.25); -webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);  overflow: hidden; }
