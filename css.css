@@ -66,6 +66,13 @@ img{
 	width:100%;
 	height: 100%;
 }
+div.karta_class{
+	width:70%;
+	height:250px;
+	text-align: center;
+	margin-left:15%;
+	
+}
 
 #featured { width: 100%; height: 450px; background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
 
